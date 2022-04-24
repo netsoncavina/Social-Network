@@ -1,7 +1,10 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
-  return <h1>HI</h1>;
+  return <NavBar></NavBar>;
 }
 
 export default App;
