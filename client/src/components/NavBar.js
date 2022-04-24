@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
+
 export default function NavBar(props) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,8 +46,9 @@ export default function NavBar(props) {
             </div>
           </li>
         </ul>
-
-        <FontAwesomeIcon icon={faCircleUser} size="2x" />
+        <button className="button" onClick={alert}>
+          <FontAwesomeIcon icon={faCircleUser} size="2x" />
+        </button>
       </div>
     </nav>
   );

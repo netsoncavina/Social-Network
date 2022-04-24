@@ -1,10 +1,16 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
+import SigIn from "./components/SigIn";
+import LogIn from "./components/LogIn";
 
 function App() {
-  return <NavBar></NavBar>;
+  return (
+    <>
+      <NavBar />
+      <SigIn />
+      <LogIn />
+    </>
+  );
 }
 
 export default App;
