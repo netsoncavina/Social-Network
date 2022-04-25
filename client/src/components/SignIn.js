@@ -54,6 +54,23 @@ export default function SignIn() {
               onclick="togglePasswordSignin()"
             ></span>
           </div>
+          <div class="form-group">
+            <label for="password">confirm password</label>
+
+            <input
+              type="password"
+              class="form-control"
+              name="password"
+              id="password-signin"
+              placeholder="password "
+            />
+            <span
+              toggle="#password-field"
+              id="toggle-eye-signin"
+              class="fa fa-fw fa-eye field-icon toggle-password"
+              onclick="togglePasswordSignin()"
+            ></span>
+          </div>
           <button type="button" class="btn btn-primary" onClick="signin()">
             Sign in
           </button>
