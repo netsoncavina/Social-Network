@@ -2,7 +2,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import SignIn from "./components/SignIn";
 import LogIn from "./components/LogIn";
-import { Routes, Switch, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
