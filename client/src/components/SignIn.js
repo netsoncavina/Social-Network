@@ -1,4 +1,4 @@
-export default function LogIn() {
+export default function SignIn() {
   return (
     <div
       class="
@@ -51,7 +51,7 @@ export default function LogIn() {
             onclick="togglePasswordSignin()"
           ></span>
         </div>
-        <button type="button" class="btn btn-primary" onclick="signin()">
+        <button type="button" class="btn btn-primary" onClick="signin()">
           Sign in
         </button>
       </div>
